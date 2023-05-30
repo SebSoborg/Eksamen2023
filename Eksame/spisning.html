@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Spisning på Koldinghus</title>
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <img id="logo" src="logo.png" alt="Logo">
+            <a href="index.html">Hjem</a>
+            <a href="praktisk.html">Praktisk info</a>
+            <a href="vielse.html">Vielser</a>
+            <a href="udstillinger.html">Udstillinger</a>
+            <a href="historie.html">Historien</a>
+            <a href="spisning.html">Spisning</a>
+            <a href="javascript:void(0);" class="icon" onclick="burger()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+<!-- En div med 2 divs inde i sig, en div er med et baggrundsbillede, den anden div er boksen over billedet -->
+          <div class="infocontainer">
+            <div class="information">
+            <div class="information1">
+ <h1>Madkælderen</h1>
+ <h4>I slottes kælder finder du Madkælderen hvor der er plads til 80 siddende gæster.</h4>
+ 
+ <img class="billede" src="mad1.jpg" alt="mad">
+ <h2>Frokost</h2>
+ <h4>Madkælderen har åbent til frokost hver dag fra 11.30-15.00, hvor der serveres traditionelt dansk frokostmad. Det anbefales at bestille bord på forhånd.</h4>
+  <h4>
+  Du kan læse mere om frokostmenuen på madkælderens hjemmeside som du finder ved at trykke <a class="madlink" href="https://www.madkaelderen.dk/frokost">her.</a>
+ </h4>
+ <h2>Aften</h2>
+ <h4>Torsdag, fredag og lørdag aften har du mulighed for at opleve en gourumetmiddag hos Madkælderen. Aftenen starter med en snack
+  som bliver efterfulgt af en 4-retters menu. Efter maden vil der blive tilbudt kaffe. Der er vin ad libitum hele aftenen.
+  Det hele foregår fra 18.30-22, bordreservation er nødvendig.
+  <br>
+  Du kan læse mere om deres aftenmenu på Madkælderens hjemmeside som du finder ved at trykke <a class="madlink" href="https://www.madkaelderen.dk/aften-i-madkaelderen">her.</a>
+ </h4>
+            </div>
+          </div>
+          <div class="information">
+            <div class="information1">
+    <h1>Praktisk omkring Madkælderen</h1>
+    <h2>Åbningstider</h2>
+    <h4>Madkælderen har åbent alle åbningsdage for Koldinghus fra 11-16.00, derudover er der torsdag, fredag og lørdag mulighed for at reservere bord til aftensmad.
+      Det er ikke nødvendigt at købe en billet til museet for at besøge Madkælderen.
+    </h4>
+    <img class="billede" src="mad2.jpg" alt="mad">
+    <h2>Kontakt</h2>
+    <h4>For at reservere bord, eller hvis man yderligere spørgsmål kan Madkælderen kontaktes på følgende:
+      Koldinghus 1, 6000 Kolding
+      <br>
+      Telefon: 75 50 47 98
+      <br>
+      E-mail: info@madkaelderen.dk
+      <br>
+      Web: www.madkaelderen.dk
+      Det er også muligt at booke bord online på følgende  <a class="madlink" href="https://book.dinnerbooking.com/dk/da-DK/book/index/659/2?_ga=2.59016557.1126635221.1545231146-1122329507.1537981398">link</a>
+    </h4>
+  </div>
+
+            </div>
+            </div>
+
+
+          <footer class="footer">
+            <div class="container1">
+             <div class="row">
+               <div class="footer-col">
+                 <h4>Åbningstider</h4>
+                 <ul>
+                   <li>3. januar – 31. januar: <br> tirsdag – søndag kl. 10-17</li>
+                   <li>1. februar – 23. december: <br> Alle dage kl. 10-17*</li>
+                   <li>26. december – 30. december: <br> Alle dage kl. 10-17</li>
+                 </ul>
+               </div>
+               <div class="footer-col">
+                <h4>Lukkede dage</h4>
+                <ul>
+                  <li> 1. 2. 9. 16. 23. og 30. januar </li>
+                  <li> 2. februar</li>
+                  <li> 24. 25. og 31. december </li>
+                </ul>
+              </div>
+               <div class="footer-col">
+                 <h4>Kontakt</h4>
+                 <ul>
+                   <li>Tlf: <br> 23372336</li>
+                   <li>E-mail: <br> koldinghus@kosa.dk</li>
+          
+                 </ul>
+               </div>
+               <div class="footer-col">
+                 <h4>Find os</h4>
+                 <ul>
+                   <li>Koldinghus 1 <br>
+                    6000 Kolding</li>
+                    <li><a target="blank" href="https://instagram.com/koldinghus">
+                      <img class="social" src="instagram.png" alt="Instagram">
+                     </a>
+                     <a target="blank" href="https://www.facebook.com/koldinghus.dk">
+                      <img class="social" src="facebook.png" alt="Facebook">
+                     </a></li>
+                 </ul>
+               </div>
+          
+               
+             
+             </div>
+            </div>
+          </footer>
+          <script>
+            function burger() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            
+      
+            }
+            </script>
+    </body>
+    </html>
